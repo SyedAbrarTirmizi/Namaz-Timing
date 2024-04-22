@@ -363,7 +363,6 @@ const fetchImage = (url, callback) => {
   xhr.onprogress = (e) => {
     if (e.lengthComputable) {
       let percentComplete = (e.loaded / e.total) * 100;
-      // console.log(percentComplete + '% downloaded')
     }
   };
   xhr.onload = () => {

@@ -98,9 +98,9 @@
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
-.cards .card .des h4:last-child span {
-  color: rgb(180, 72, 92);
-}
 .cards .card .des span {
   margin-left: 20px;
+}
+.cards .card .des h4:last-child span {
+  color: rgb(180, 72, 92);
 }
